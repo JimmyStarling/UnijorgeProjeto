@@ -16,3 +16,7 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.navbar .navbar-brand {
+    font-family: 'Bebas Neue';
+}
