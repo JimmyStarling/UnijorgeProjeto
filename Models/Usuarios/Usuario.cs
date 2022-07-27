@@ -22,16 +22,20 @@ namespace UnijorgeCalouros.Models
 
         [Required(ErrorMessage = "CPF é obrigatório.")]
         [DisplayFormat(DataFormatString = "{0:000\\.000\\.000-00}", ApplyFormatInEditMode = true)]
+        [RegularExpression(@"^\d{3}\.\d{3}\.\d{3}-\d{2}$", 
+         ErrorMessage = "Formato de CPF Inválido.")]
         public string CPF { get; set; }
 
         [Required(ErrorMessage = "Telefone é obrigatório.")]
+        [RegularExpression(@"^\(?[1-9]{2}\)? ?(?:[2-8]|9[1-9])[0-9]{3}\-?[0-9]{4}$", 
+         ErrorMessage = "Telefone Inválido.")]
         public string Telefone { get; set; }
 
         [Required(ErrorMessage = "Data é obrigatoria.")]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:yyyy-MM-dd}")]
         [DataType(DataType.Date, ErrorMessage = "Data em formato inválido")]
-        [Display(Name ="Data de criação.")]
-        public DateTime Data { get; set; }
+        [Display(Name ="Criado em")]
+        public DateTime Data { get; set; } = DateTime.Now;
 
         public bool Ativo { get; set; }
     }
