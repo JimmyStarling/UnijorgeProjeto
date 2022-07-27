@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5SU+Kr9Xxhcmp/LE7liYjFwathfgXQ56GRffmCqtLXl4hT66qWrACoRNAknipO21c1qfVzVN3ewEsa93FX9wog==",
+  "dgSpecHash": "jAEsc9I3O2Plm98lI/rflDCTMn5QfK20L/4qyJsaDf5IeKgSwZAMbdN4Fic5em/Nh+GIb0F2+esqPHwsGRpMsQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jimmy\\source\\repos\\UnijorgeCalouros\\UnijorgeCalouros.csproj",
+  "projectFilePath": "C:\\Users\\Jimmy\\UnijorgeProjeto\\UnijorgeCalouros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jimmy\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Jimmy\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
