@@ -37,7 +37,22 @@ body {
   font-family: 'Bebas Neue';
 }
 
+.container-welcome {
+  background-color: #014C84;
+}
+
+.text-welcome {
+  font-family: 'Bebas Neue';
+  color: #FFE5C5;
+}
+
+.text-welcome-sub{
+  color: #FFE5C5;
+  font-size: 1rem;
+}
+
 .btn {
+  font-size: 1rem;
   border-radius: 0rem;
 }
 
