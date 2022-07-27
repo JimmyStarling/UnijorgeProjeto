@@ -3,6 +3,17 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <h1 class="display-4">
+        Seja bem vindo,<br/>
+        Entre com sua conta para continuar
+    </h1>
+    <form>
+        <div class="row">
+            <br />
+            <div class="col-md form-group text-left">
+                <button class="btn btn-lg btn-primary" type="submit" asp-controller="Usuario" asp-action="Index">Entrar</button>
+                <button class="btn btn-lg btn-secondary" type="submit" asp-area="Identity" asp-page="/Account/Register">Cadastre-se</button>
+            </div>
+        </div>
+    </form>
 </div>
